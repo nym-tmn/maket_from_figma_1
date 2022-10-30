@@ -1,0 +1,47 @@
+// font-family:
+
+$barlow: 'Barlow', sans-serif;
+$playfair_display: 'Playfair Display', sans-serif;
+$inter: 'Inter', sans-serif;
+
+// font-color:
+
+$main_font_color: #2F2E2E;
+$footer_font_color: #FAFAFA;
+$testimonial_font_color: #000000;
+
+// font
+
+$bold_900: 900;
+$bold_700: 700;
+$bold_600: 600;
+$main_title_font-size: 42px;
+$main_title_line-height: 50px;
+$secondary_title_font-size: 51px;
+$secondary_title_line-height: 60px;
+$secondary_footer_title_font-size: 24px;
+$secondary_footer_title_line-height: 29px;
+
+// mixins
+
+@mixin main_title {
+	font-family: $barlow;
+	font-weight: $bold_600;
+	font-size: $main_title_font-size;
+	line-height: $main_title_line-height;
+}
+
+@mixin secondary_title {
+	font-family: $playfair_display;
+	font-weight: $bold_900;
+	font-size: $secondary_title_font-size;
+	line-height: $secondary_title_line-height;
+}
+
+@mixin secondary_footer_title {
+	font-family: $inter;
+	font-weight: $bold_900;
+	font-size: $secondary_footer_title_font-size;
+	line-height: $secondary_footer_title_line-height;
+}
+
